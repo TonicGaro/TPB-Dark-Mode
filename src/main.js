@@ -1,9 +1,15 @@
 try{document.querySelector('body').style.backgroundColor = '#292929';}catch(e){}
 try{document.querySelector('input').style.backgroundColor = '#292929';}catch(e){}
 try{document.getElementById('cat').style.backgroundColor = '#292929';}catch(e){}
-try{const nodeList = document.querySelectorAll('.list-entry'); // copied from w3schools lmfao
+try{document.getElementById('description_container').style.backgroundColor = '#292929';}catch(e){}
+try{document.getElementById('description_text').style.backgroundColor = '#292929';}catch(e){}
+try{document.getElementById('filelist').style.backgroundColor = '#292929';}catch(e){}
+try{const nodeList = document.querySelectorAll('.list-entry');
 for (let i = 0; i < nodeList.length; i++) {
-  nodeList[i].style.backgroundColor = "#292929";}}catch(e){}
+  nodeList[i].style.backgroundColor = '#292929';}}catch(e){}
+try{const nodeList = document.querySelectorAll('a');
+for (let i = 0; i < nodeList.length; i++) {
+  nodeList[i].style.color = '#8ab4f8';}}catch(e){}
 try{document.getElementsByClassName('list-item list-header item-type')[0].style.backgroundColor = '#292929';}catch(e){}
 try{document.getElementsByClassName('list-item list-header item-name')[0].style.backgroundColor = '#292929';}catch(e){}
 try{document.getElementsByClassName('list-item list-header item-uploaded')[0].style.backgroundColor = '#292929';}catch(e){}
